@@ -15,7 +15,7 @@
         android:text="@string/ingresaDatos"
         android:textColor="@color/negro"
         android:gravity="center"
-        android:textSize="17dp"
+        android:textSize="17sp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
@@ -31,36 +31,36 @@
             <TextView
                 android:text="@string/ingresaNombres"
                 android:textColor="@color/negro"
-                android:textSize="15dp"
+                android:textSize="15sp"
                 android:layout_marginTop="10dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
             <TextView
                 android:text="@string/ingresaApellidos"
                 android:textColor="@color/negro"
-                android:textSize="15dp"
+                android:textSize="15sp"
                 android:layout_marginTop="15dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
             <TextView
                 android:text="@string/ingresaCorreo"
                 android:textColor="@color/negro"
-                android:textSize="15dp"
+                android:textSize="15sp"
                 android:layout_marginTop="18dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
             <TextView
                 android:text="@string/ingresaTelefo"
                 android:textColor="@color/negro"
-                android:textSize="15dp"
+                android:textSize="15sp"
                 android:layout_marginTop="15dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
             <TextView
                 android:text="@string/ingresaEdad"
                 android:textColor="@color/negro"
-                android:textSize="15dp"
-                android:layout_marginTop="19dp"
+                android:textSize="15sp"
+                android:layout_marginTop="19sp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
         </LinearLayout>
@@ -71,31 +71,31 @@
             android:layout_height="wrap_content">
             <EditText
                 android:id="@+id/etNombres"
-                android:textSize="15dp"
+                android:textSize="15sp"
                 android:inputType="text"
                 android:layout_width="match_parent"
                 android:layout_height="35dp" />
             <EditText
                 android:id="@+id/etApellidos"
-                android:textSize="15dp"
+                android:textSize="15sp"
                 android:inputType="text"
                 android:layout_width="match_parent"
                 android:layout_height="35dp" />
             <EditText
                 android:id="@+id/etCorreo"
-                android:textSize="15dp"
+                android:textSize="15sp"
                 android:inputType="text"
                 android:layout_width="match_parent"
                 android:layout_height="35dp" />
             <EditText
                 android:id="@+id/etTelefono"
-                android:textSize="15dp"
+                android:textSize="15sp"
                 android:inputType="number"
                 android:layout_width="match_parent"
                 android:layout_height="35dp" />
             <EditText
                 android:id="@+id/etEdad"
-                android:textSize="15dp"
+                android:textSize="15sp"
                 android:inputType="number"
                 android:layout_width="match_parent"
                 android:layout_height="35dp" />
@@ -123,5 +123,10 @@
         android:textAllCaps="false"
         android:layout_width="100dp"
         android:layout_height="35dp" />
+
+    <TextView
+        android:text="Hola mundo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
 
 </LinearLayout>
