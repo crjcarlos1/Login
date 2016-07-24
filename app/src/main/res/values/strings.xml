@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Login</string>
+
+    <string name="email_o_telefono">Email o teléfono</string>
+    <string name="contrasenia">Contraseña</string>
+    <string name="iniciar_sesion">Iniciar sesión</string>
+    <string name="registrarse">Registrarse</string>
+    <string name="cancelar">Cancelar</string>
+
+    <string name="ingresaDatos">Ingresa todos tus datos</string>
+    <string name="ingresaNombres">Nombre(s)</string>
+    <string name="ingresaApellidos">Apellido(s)</string>
+    <string name="ingresaCorreo">Correo</string>
+    <string name="ingresaTelefo">Teléfono</string>
+    <string name="ingresaEdad">Edad</string>
+
+    <string name="esperandoNombre">ingresa nombres</string>
+    <string name="esperandoApellido">ingresa apellidos</string>
+    <string name="esperandoCorreo">ingresa correo</string>
+    <string name="esperandoTelefono">ingresa telefono</string>
+    <string name="esperandoEdad">ingresa edad</string>
+
+    <string name="sinConexionRegistro">No se pudo conectar para registro</string>
+    <string name="noSeRegistro">Error al registrarse</string>
+    <string name="registroCorrecto">Se registro correctamente</string>
+
+</resources>
